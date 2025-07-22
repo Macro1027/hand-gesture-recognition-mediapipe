@@ -133,3 +133,7 @@ dmypy.json
 .idea/
 
 .DS_Store
+*.keras
+*.hdf5
+*.tflite
+*.h5

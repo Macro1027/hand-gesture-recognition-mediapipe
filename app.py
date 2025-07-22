@@ -110,7 +110,8 @@ def main():
         # Camera capture #####################################################
         ret, image = cap.read()
         if not ret:
-            break
+            print("oops")
+            continue
         image = cv.flip(image, 1)  # Mirror display
         debug_image = copy.deepcopy(image)
 
